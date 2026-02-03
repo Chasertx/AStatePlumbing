@@ -1,13 +1,9 @@
-﻿@* Top Navigation Bar *@
-        <nav class="navbar navbar-dark bg-black border-bottom border-danger border-4 py-2 px-4 shadow-lg">
+﻿     <nav class="navbar navbar-dark bg-black border-bottom border-danger border-4 py-2 px-4 shadow-lg">
             <div class="container-fluid d-flex justify-content-between align-items-center">
                 
-                @* Logo Area: Image on left, stacked text on right *@
                 <a class="navbar-brand d-flex align-items-center gap-3" href="">
-                    @* Logo Image *@
                     <img src="assets/images/astatelog.png" alt="A-State Logo" style="height: 50px; width: auto;" />
                     
-                    @* Stacked Text *@
                     <div class="d-flex flex-column lh-1">
                         <span class="fw-black tracking-tighter fs-4 uppercase">
                             A-STATE <span class="text-danger">PLUMBING</span>
@@ -18,7 +14,6 @@
                     </div>
                 </a>
 
-                @* Navigation Links (Pushed right next to the button) *@
                 <div class="ms-auto d-none d-lg-flex align-items-center gap-4 me-4">
                     <NavLink class="nav-link text-white fw-bold" href="" Match="NavLinkMatch.All">HOME</NavLink>
                     <NavLink class="nav-link text-white fw-bold" href="services">SERVICES</NavLink>
@@ -26,7 +21,6 @@
                     <NavLink class="nav-link text-white fw-bold" href="contact">CONTACT US</NavLink>
                 </div>
 
-                @* Emergency Action Button *@
                 <div class="d-flex align-items-center">
                     <a href="tel:5014105454" class="btn btn-danger fw-bold px-4 py-2 shadow-sm uppercase">
                         <i class="bi bi-telephone-fill me-2"></i> GET A QUOTE
