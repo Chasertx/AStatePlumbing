@@ -64,27 +64,24 @@ main[b-jhjoifc6tf] {
  
 }
 /* /Layout/NavMenu.razor.rz.scp.css */
-/* 1. Kill the phantom black focus boxes */
 *:focus[b-f8d0wgfx1p] {
     outline: none !important;
     box-shadow: none !important;
 }
 
-/* 2. Style the Header Links for Professional Spacing */
 .navbar-nav .nav-link[b-f8d0wgfx1p] {
     color: white !important;
     font-weight: 700;
     letter-spacing: 1px;
-    padding: 0.5rem 1.2rem !important; /* Adds breathing room between links */
+    padding: 0.5rem 1.2rem !important;
     transition: color 0.3s ease;
 }
 
 .navbar-nav .nav-link:hover[b-f8d0wgfx1p], 
 .navbar-nav .nav-link.active[b-f8d0wgfx1p] {
-    color: #cc0000 !important; /* Turns red on hover or when on that page */
+    color: #cc0000 !important; 
 }
 
-/* 3. Polish the Brand Logo */
 .navbar-brand[b-f8d0wgfx1p] {
     font-weight: 900;
     letter-spacing: -1px;

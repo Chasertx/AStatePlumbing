@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "AStatePlumbing",
   "resources": {
-    "hash": "sha256-Tu+n/Ym6m1SZt1ZgEsLvHalpEt5upkY20nd4zGoBkqQ=",
+    "hash": "sha256-rPEy0l+Vq64pEovfSar60cJX4rx3m1EaNf1ZYFuDiF0=",
     "jsModuleNative": {
       "dotnet.native.8.0.23.mwejaqou3z.js": "sha256-NljIbpK/1KCj0+knpX8U77Rbl5kTtfFIuFjK7AuczEw="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-oV7k+vcNqj7FS6Y/lMtdhVlq3myDH55/wVxmO4QPrw4=",
       "netstandard.wasm": "sha256-XMXMB0WW//vbNNgQiFAqYo7IJ2C4yQX590aoAbOtTB4=",
       "System.Private.CoreLib.wasm": "sha256-tuhzUgbFn7ji3yhMSxyBLHAps9h0RsFnq+8pUoizHiw=",
-      "AStatePlumbing.wasm": "sha256-SXVzdTi+eIjbrPffXHX8CW56QzxmafvnTJeD0KsZjOk="
+      "AStatePlumbing.wasm": "sha256-9tKZ6QuW3VPwb4razEBTFcvR4h0DOGVcgdtF1Tuo1aE="
     },
     "pdb": {
-      "AStatePlumbing.pdb": "sha256-OnUFrBzFB4geBiGhnY2EfBpUfmMkiOOv7JISDMVuOu8="
+      "AStatePlumbing.pdb": "sha256-Oe3h3F8ZYQBooP9LzdDR/DVVJqS0uABbAOUFpKtzctw="
     }
   },
   "cacheBootResources": true,
