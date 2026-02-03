@@ -29,6 +29,22 @@
       "PackagePath": "staticwebassets\\assets\\images\\facebook.png"
     },
     {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\assets\\images\\google.png",
+      "PackagePath": "staticwebassets\\assets\\images\\google.png"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\assets\\images\\google1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\google1.png"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\assets\\images\\instagram.avif",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram.avif"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\assets\\images\\instagram.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\instagram.jpg"
+    },
+    {
       "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\assets\\images\\pvc.webp",
       "PackagePath": "staticwebassets\\assets\\images\\pvc.webp"
     },

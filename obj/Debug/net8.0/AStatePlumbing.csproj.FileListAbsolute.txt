@@ -1029,3 +1029,4 @@ C:\DEV\A-State\AStatePlumbing\obj\Debug\net8.0\AStatePlumbing.dll
 C:\DEV\A-State\AStatePlumbing\obj\Debug\net8.0\refint\AStatePlumbing.dll
 C:\DEV\A-State\AStatePlumbing\obj\Debug\net8.0\AStatePlumbing.pdb
 C:\DEV\A-State\AStatePlumbing\obj\Debug\net8.0\ref\AStatePlumbing.dll
+C:\DEV\A-State\AStatePlumbing\obj\Debug\net8.0\AStatePlumbing.sourcelink.json
