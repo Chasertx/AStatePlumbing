@@ -1,0 +1,129 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\obj\\Debug\\net8.0\\compressed\\ztzyooiqli.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AStatePlumbing.styles.css",
+      "PackagePath": "staticwebassets\\AStatePlumbing.styles.css"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\assets\\images\\IMG_20260203_143155 (1).jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\IMG_20260203_143155 (1).jpg"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\assets\\images\\astatelog.png",
+      "PackagePath": "staticwebassets\\assets\\images\\astatelog.png"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\assets\\images\\bathTub.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bathTub.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\assets\\images\\facebook.png",
+      "PackagePath": "staticwebassets\\assets\\images\\facebook.png"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\assets\\images\\pvc.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\pvc.webp"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\assets\\images\\scope1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\scope1.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\assets\\images\\scope2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\scope2.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\assets\\images\\toilet.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\toilet.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\assets\\images\\valve.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\valve.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\assets\\images\\valve1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\valve1.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\assets\\images\\van.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\van.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\assets\\images\\waterFountain.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\waterFountain.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\assets\\images\\waterHeater.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\waterHeater.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\assets\\images\\waterMachine.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\waterMachine.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\assets\\images\\worksite.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\worksite.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\assets\\images\\worksite1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\worksite1.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\assets\\images\\worksite2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\worksite2.jpg"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AStatePlumbing.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AStatePlumbing.props",
+      "PackagePath": "build\\AStatePlumbing.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AStatePlumbing.props",
+      "PackagePath": "buildMultiTargeting\\AStatePlumbing.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AStatePlumbing.props",
+      "PackagePath": "buildTransitive\\AStatePlumbing.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

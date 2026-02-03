@@ -1,0 +1,66 @@
+﻿@inherits LayoutComponentBase
+
+<div class="page">
+    <main class="w-100">
+        @* Top Navigation Bar *@
+        
+        <NavMenu/>
+        @* Hero and Main Content *@
+        <article class="content">
+            @Body
+        </article>
+
+        @* Professional Footer *@
+        <footer class="bg-black text-white pt-5 pb-4 border-top border-danger border-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    @* Column 1: Branding *@
+                    <div class="col-md-4 text-center text-md-start mb-4 mb-md-0">
+                        <h4 class="fw-black tracking-tighter mb-1">
+                            A-STATE <span class="text-danger">PLUMBING</span>
+                        </h4>
+                        <p class="small text-secondary text-uppercase tracking-widest">
+                            & Rooter Services
+                        </p>
+                    </div>
+
+                    @* Column 2: Contact & Socials *@
+                    <div class="col-md-4 text-center mb-4 mb-md-0">
+                        <div class="d-flex justify-content-center gap-3 mb-3">
+                            <a href="https://facebook.com" target="_blank" class="social-link text-white">
+                                <i class="bi bi-facebook fs-4"></i>
+                            </a>
+                            <a href="https://instagram.com" target="_blank" class="social-link text-white">
+                                <i class="bi bi-instagram fs-4"></i>
+                            </a>
+                            <a href="https://yelp.com" target="_blank" class="social-link text-warning">
+                                <i class="bi bi-star-fill fs-4"></i>
+                            </a>
+                        </div>
+                        <a href="mailto:service@astateplumbing.com" class="text-white text-decoration-none hover-red small">
+                            <i class="bi bi-envelope-fill text-danger me-2"></i>service@astateplumbing.com
+                        </a>
+                    </div>
+
+                    @* Column 3: Quick Info *@
+                    <div class="col-md-4 text-center text-md-end">
+                        <a href="tel:5551234567" class="h5 text-danger fw-black text-decoration-none">
+                            (555) 123-4567
+                        </a>
+                    </div>
+                </div>
+
+                <hr class="border-secondary my-4 opacity-25">
+
+                <div class="row">
+                    <div class="col text-center">
+                        <p class="mb-0 x-small text-secondary text-uppercase tracking-widest">
+                            &copy; @DateTime.Now.Year A-State Plumbing & Rooter. 
+                            <span class="mx-2 text-danger">|</span> Licensed, Bonded, and Insured
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+</div>

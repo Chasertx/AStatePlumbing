@@ -1,0 +1,162 @@
+@page "/contact"
+
+<PageTitle>Contact Us | A-State Plumbing</PageTitle>
+
+@* 1. Hero Section *@
+<section class="bg-black text-white py-5 position-relative">
+    <div class="container py-5 text-center">
+        <h6 class="text-danger fw-bold tracking-widest uppercase mb-2">GET IN TOUCH</h6>
+        <h1 class="display-2 fw-black uppercase tracking-tighter">
+            CONTACT <span class="text-danger">US</span>
+        </h1>
+        <p class="text-secondary mx-auto mb-5" style="max-width: 500px;">
+            The highest rated plumbing and rooter services in Central Arkansas. Available 24/7.
+        </p>
+    </div>
+</section>
+
+@* 2. Contact Info & Form Section *@
+<section class="py-5 bg-white">
+    <div class="container">
+        @* Contact Info Row - Elevated Visuals *@
+        <div class="row g-4 justify-content-center mb-5" style="margin-top: -100px;">
+            
+            @* CALL CARD *@
+            <div class="col-md-4">
+                <a href="tel:5551234567" class="card h-100 border-0 shadow-lg p-4 text-center rounded-0 border-top border-danger border-4 contact-link-card">
+                    <div class="icon-box mb-3">
+                        <i class="bi bi-telephone-fill text-danger display-4"></i>
+                    </div>
+                    <h5 class="fw-black uppercase text-dark">Call Us Now</h5>
+                    <span class="fs-5 fw-bold text-danger">(555) 123-4567</span>
+                    <p class="text-muted small mt-2 uppercase fw-bold">Available 24/7</p>
+                </a>
+            </div>
+
+            @* EMAIL CARD *@
+            <div class="col-md-4">
+                <a href="mailto:service@astateplumbing.com" class="card h-100 border-0 shadow-lg p-4 text-center rounded-0 border-top border-danger border-4 contact-link-card">
+                    <div class="icon-box mb-3">
+                        <i class="bi bi-envelope-at-fill text-danger display-4"></i>
+                    </div>
+                    <h5 class="fw-black uppercase text-dark">Email Us</h5>
+                    <span class="fs-6 fw-bold text-danger text-break">service@astateplumbing.com</span>
+                    <p class="text-muted small mt-2 uppercase fw-bold">General Inquiries</p>
+                </a>
+            </div>
+
+            @* FOLLOW CARD *@
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-lg p-4 text-center rounded-0 border-top border-danger border-4">
+                    <div class="icon-box mb-3">
+                        <i class="bi bi-share-fill text-danger display-4"></i>
+                    </div>
+                    <h5 class="fw-black uppercase text-dark">Follow Us</h5>
+                    <div class="d-flex justify-content-center gap-4 mt-1">
+                        <a class="navbar-brand d-flex align-items-center gap-3" href="https://www.facebook.com/">
+                    @* Logo Image *@
+                    <img src="assets/images/facebook.png" alt="A-State Logo" style="height: 50px; width: auto;" />
+                    </a>
+                    <a class="navbar-brand d-flex align-items-center gap-3" href="">
+                    @* Logo Image *@
+                    <img src="assets/images/google1.png" alt="A-State Logo" style="height: 50px; width: auto;" />
+                    </a>
+                    <a class="navbar-brand d-flex align-items-center gap-3" href="">
+                    @* Logo Image *@
+                    <img src="assets/images/instagram.jpg" alt="A-State Logo" style="height: 50px; width: auto;" />
+                    </a>
+                </div>
+                
+                    <p class="text-muted small mt-2 uppercase fw-bold">Social Media</p>
+            </div>
+        </div>
+
+        @* The Blended Form *@
+        <div class="row justify-content-center py-4">
+            <div class="col-lg-8">
+                <div class="text-center mb-5">
+                    <h2 class="fw-black uppercase display-6">Request <span class="text-danger">Service</span></h2>
+                    <p class="text-muted">Fill out the form below and our dispatch team will contact you shortly.</p>
+                </div>
+
+                <div class="p-4 p-md-5 border border-light shadow-sm rounded-1 bg-white">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <label class="form-label fw-bold small uppercase">Name</label>
+                                <input type="text" class="form-control form-control-lg border-2" placeholder="John Doe">
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <label class="form-label fw-bold small uppercase">Phone Number</label>
+                                <input type="tel" class="form-control form-control-lg border-2" placeholder="(555) 000-0000">
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label fw-bold small uppercase">Email Address</label>
+                            <input type="email" class="form-control form-control-lg border-2" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label fw-bold small uppercase">How can we help?</label>
+                            <textarea class="form-control form-control-lg border-2" rows="4" placeholder="Briefly describe your plumbing issue..."></textarea>
+                        </div>
+                        <div class="text-center mt-5">
+                            <button type="button" class="btn btn-danger btn-lg px-5 py-3 fw-black uppercase shadow">
+                                Send Request
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@* 3. Service Area Badge Section *@
+<section class="py-5 bg-light">
+    <div class="container text-center">
+        <h5 class="fw-bold text-muted uppercase tracking-widest mb-4">Serving Central Arkansas</h5>
+        <div class="d-flex flex-wrap justify-content-center gap-4 opacity-75">
+            <span class="badge bg-dark px-3 py-2">LITTLE ROCK</span>
+            <span class="badge bg-dark px-3 py-2">CONWAY</span>
+            <span class="badge bg-dark px-3 py-2">BENTON</span>
+            <span class="badge bg-dark px-3 py-2">VILONIA</span>
+            <span class="badge bg-dark px-3 py-2">CABOT</span>
+        </div>
+    </div>
+</section>
+
+<style>
+    /* Styling to make contact links pop */
+    .contact-link-card {
+        text-decoration: none !important;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .contact-link-card:hover {
+        transform: translateY(-10px);
+        background-color: #fdfdfd;
+        box-shadow: 0 1rem 3rem rgba(220, 53, 69, 0.15) !important;
+    }
+
+    .social-hover:hover {
+        color: #dc3545 !important;
+        transform: scale(1.2);
+        transition: all 0.2s ease;
+    }
+
+    .form-control {
+        border-color: #eee;
+        border-radius: 0;
+        transition: all 0.2s ease;
+    }
+
+    .form-control:focus {
+        border-color: #dc3545;
+        box-shadow: none;
+        background-color: #fff;
+    }
+
+    .fw-black { font-weight: 900; }
+    .tracking-tighter { letter-spacing: -2px; }
+    .text-break { word-break: break-all; }
+</style>

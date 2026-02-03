@@ -1,0 +1,142 @@
+/* Reset Page Structure */
+.page {
+    display: block; /* Remove flex display */
+}
+
+main {
+    width: 100%;
+}
+
+.content {
+    min-height: calc(100vh - 200px); /* Ensures footer stays down */
+}
+
+/* Typography & Links */
+.nav-link {
+    letter-spacing: 1px;
+    transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+    color: var(--astate-red) !important;
+}
+
+/* Ensure the Hero section remains centered and clean */
+.hero-content {
+    padding: 120px 0;
+    text-align: left;
+}
+
+/* Utility Classes */
+.fw-black { font-weight: 900; }
+.uppercase { text-transform: uppercase; }
+.tracking-tighter { letter-spacing: -0.05em; }
+
+/* Navigation Link Hover & Active States */
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--astate-red) !important;
+}
+
+/* This targets the current active page link */
+.navbar-nav .nav-link.active {
+    color: var(--astate-red) !important;
+    border-bottom: 2px solid var(--astate-red);
+}
+
+.transition-transform:hover {
+    transform: scale(1.05);
+}
+
+*:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Specifically target the main content area if the above is too broad */
+article.content:focus, main:focus, div:focus {
+    outline: none !important;
+}
+
+/* Gallery Item Container */
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    height: 300px; /* Forces uniform grid height */
+    background-color: #000;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+    opacity: 0.9;
+}
+
+/* The Overlay Effect */
+.gallery-overlay {
+    position: absolute;
+    bottom: -100%; /* Hidden by default */
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background: linear-gradient(transparent, rgba(0,0,0,0.9));
+    transition: bottom 0.4s ease;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+.gallery-item:hover .gallery-overlay {
+    bottom: 0;
+}
+
+.overlay-text h5 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+:root {
+    --astate-red: #dc3545;
+    --astate-black: #000000;
+    --astate-dark-grey: #1a1a1a;
+    --astate-off-white: #f8f9fa;
+}
+
+body {
+    background-color: white;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.fw-black { font-weight: 900 !important; }
+.uppercase { text-transform: uppercase; }
+.tracking-tighter { letter-spacing: -2px; }
+
+/* Removes the white space on the edges */
+.content { padding: 0 !important; }
+
+/* Card Hover Profile */
+.contact-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-top: 4px solid transparent;
+}
+.contact-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    border-top: 4px solid var(--astate-red);
+}
