@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AStatePlumbing")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6a261337393d226bc7e6bd562b5549071fcf4db")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e6b9b9029ef7f62a8fed93ab684f4653218d4a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("AStatePlumbing")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AStatePlumbing")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
