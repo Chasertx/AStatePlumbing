@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "W0tbVaMPA9TD8LuiihmRp8WcroN8ncRD69+jRCmeOJU=",
+  "Hash": "RLDMw+pAoUU2qU8i/YRHCxkkfBxW0L2Y7EH0Z58lxeI=",
   "Source": "AStatePlumbing",
   "BasePath": "/",
   "Mode": "Root",
@@ -8280,6 +8280,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\google0843180e888c25bd.html",
+      "SourceId": "AStatePlumbing",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "google0843180e888c25bd.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\google0843180e888c25bd.html"
     },
     {
       "Identity": "C:\\DEV\\A-State\\AStatePlumbing\\wwwroot\\icon-192.png",
